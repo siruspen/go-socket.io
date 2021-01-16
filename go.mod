@@ -1,4 +1,4 @@
-module github.com/siruspen/go-socket.iosiruspen
+module github.com/siruspen/go-socket.io
 
 go 1.13
 
