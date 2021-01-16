@@ -2,9 +2,14 @@ package socketio
 
 import (
 	"net/http"
+	"fmt"
 
 	"github.com/googollee/go-socket.io/engineio"
 )
+
+func init() {
+	fmt.Println("!!!!!!!!!!!!!!!!!")
+}
 
 // Server is a go-socket.io server.
 type Server struct {
